@@ -2,7 +2,7 @@
 07/21/2019
 
 ### Project Title
-BikeShare Project
+How Bike Share Systems Differ in Three Major U.S. Cities
 
 ### Descriptions
 Explore data related to bike share systems in three major U.S. cities - Chicago, New York, Washington D.C.
