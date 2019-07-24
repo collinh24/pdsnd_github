@@ -5,14 +5,8 @@ chi = read.csv('chicago.csv')
 
 library(ggplot2)
 
-head(ny)
-
-head(wash)
-
 ny_1 = read.csv('new_york_city.csv', na.strings=c("", "NA"))
 chi_1 = read.csv('chicago.csv', na.strings=c("", "NA"))
-
-mean(chi[["Trip.Duration"]], na.rm=TRUE)
 
 ggplot(data=wash, aes(x=Start.Station)) +
   geom_bar(width=1) +
