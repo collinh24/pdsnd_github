@@ -1,4 +1,3 @@
-
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
 chi = read.csv('chicago.csv')
@@ -65,7 +64,6 @@ ggplot(aes(x = Birth.Year, y = Trip.Duration), data = ny) +
   xlab('Birth Year') +
   ylab('Trip Duration (Seconds)')
 
-
 mean(ny[["Trip.Duration"]], na.rm=TRUE)
 
 ggplot(aes(x = Birth.Year, y = Trip.Duration), data = chi) +
@@ -76,7 +74,6 @@ ggplot(aes(x = Birth.Year, y = Trip.Duration), data = chi) +
   ggtitle('Trip Duration by Age in Chicago') +
   xlab('Birth Year') +
   ylab('Trip Duration (Seconds)')
-
 
 mean(chi[["Trip.Duration"]], na.rm=TRUE)
 
